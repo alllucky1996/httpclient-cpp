@@ -1,0 +1,166 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ConvertUTF.c
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  testsi.cpp
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'testsi.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1273,2):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(333,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'testsi.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::LoadOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2039: 'binary_function': is not a member of 'std'
+  (compiling source file 'testsi.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\iostream(18,1):
+  see declaration of 'std'
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\testsi.cpp(51,14):
+  	see reference to class template instantiation 'CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1249,14):
+  	see reference to class template instantiation 'std::map<CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,std::multimap<CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry,const SI_CHAR *>>>,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry,std::multimap<CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertW<SI_CHAR>>::Entry,const SI_CHAR *>>>>>>' being compiled
+          with
+          [
+              SI_CHAR=wchar_t
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\map(72,20):
+  	see reference to class template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,
+              _Ty=std::multimap<CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,const wchar_t *,CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,const wchar_t *>>>,
+              _Pr=CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry::KeyOrder,
+              _Alloc=std::allocator<std::pair<const CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,std::multimap<CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,const wchar_t *,CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry,const wchar_t *>>>>>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,42):
+  	see reference to variable template 'const bool is_empty_v<CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t> >::Entry::KeyOrder>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,59):
+  	see reference to class template instantiation 'CSimpleIniTempl<wchar_t,SI_NoCase<wchar_t>,SI_ConvertW<wchar_t>>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2504: 'binary_function': base class undefined
+  (compiling source file 'testsi.cpp')
+  
+  test1.cpp
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'test1.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1273,2):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(333,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'test1.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::LoadOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2039: 'binary_function': is not a member of 'std'
+  (compiling source file 'test1.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\iostream(18,1):
+  see declaration of 'std'
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\test1.cpp(92,17):
+  	see reference to class template instantiation 'CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1249,14):
+  	see reference to class template instantiation 'std::map<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *>>>,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,std::multimap<CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *>>>>>>' being compiled
+          with
+          [
+              SI_CHAR=char
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\map(72,20):
+  	see reference to class template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,
+              _Ty=std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *,CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *>>>,
+              _Pr=CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,
+              _Alloc=std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *,CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *>>>>>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,42):
+  	see reference to variable template 'const bool is_empty_v<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char> >::Entry::KeyOrder>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,59):
+  	see reference to class template instantiation 'CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2504: 'binary_function': base class undefined
+  (compiling source file 'test1.cpp')
+  
+  snippets.cpp
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'snippets.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,47):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1273,2):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(333,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'snippets.cpp')
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,48):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(342,1):
+  	see reference to class template instantiation 'CSimpleIniTempl<SI_CHAR,SI_STRLESS,SI_CONVERTER>::Entry::LoadOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2039: 'binary_function': is not a member of 'std'
+  (compiling source file 'snippets.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\iostream(18,1):
+  see declaration of 'std'
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\snippets.cpp(31,17):
+  	see reference to class template instantiation 'CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>' being compiled
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(1249,14):
+  	see reference to class template instantiation 'std::map<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *>>>,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,std::multimap<CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *,CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<SI_CHAR,SI_NoCase<SI_CHAR>,SI_ConvertA<SI_CHAR>>::Entry,const SI_CHAR *>>>>>>' being compiled
+          with
+          [
+              SI_CHAR=char
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\map(72,20):
+  	see reference to class template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,
+              _Ty=std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *,CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *>>>,
+              _Pr=CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,
+              _Alloc=std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,std::multimap<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *,CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder,std::allocator<std::pair<const CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry,const char *>>>>>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,42):
+  	see reference to variable template 'const bool is_empty_v<CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char> >::Entry::KeyOrder>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xmemory(1509,59):
+  	see reference to class template instantiation 'CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::KeyOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(331,32): error C2504: 'binary_function': base class undefined
+  (compiling source file 'snippets.cpp')
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,33): error C2039: 'binary_function': is not a member of 'std'
+  (compiling source file 'snippets.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\iostream(18,1):
+  see declaration of 'std'
+  E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,33):
+  the template instantiation context (the oldest one first) is
+  	E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\snippets.cpp(72,47):
+  	see reference to class template instantiation 'CSimpleIniTempl<char,SI_NoCase<char>,SI_ConvertA<char>>::Entry::LoadOrder' being compiled
+  
+E:\Projects\Open\git\alllucky_1996\httpclient-cpp\TestHTTP\simpleini\SimpleIni.h(339,33): error C2504: 'binary_function': base class undefined
+  (compiling source file 'snippets.cpp')
+  
+  Generating Code...

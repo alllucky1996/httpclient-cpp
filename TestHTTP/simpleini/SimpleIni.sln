@@ -1,29 +1,60 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleIni", "SimpleIni.vcproj", "{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleIni", "SimpleIni.vcxproj", "{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CClient", "..\..\CClient\CClient.vcxproj", "{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Debug Unicode = Debug Unicode
-		Release = Release
-		Release Unicode = Release Unicode
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|x64 = Debug Unicode|x64
+		Debug Unicode|x86 = Debug Unicode|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release Unicode|x64 = Release Unicode|x64
+		Release Unicode|x86 = Release Unicode|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode|x64.ActiveCfg = Debug Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode|x64.Build.0 = Debug Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode|x86.ActiveCfg = Debug Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode|x86.Build.0 = Debug Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug|x64.ActiveCfg = Debug|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug|x64.Build.0 = Debug|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug|x86.Build.0 = Debug|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode|x64.ActiveCfg = Release Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode|x64.Build.0 = Release Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode|x86.ActiveCfg = Release Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode|x86.Build.0 = Release Unicode|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release|x64.ActiveCfg = Release|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release|x64.Build.0 = Release|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release|x86.ActiveCfg = Release|Win32
+		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release|x86.Build.0 = Release|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug Unicode|x64.ActiveCfg = Debug|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug Unicode|x64.Build.0 = Debug|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug Unicode|x86.ActiveCfg = Debug|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug Unicode|x86.Build.0 = Debug|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug|x64.ActiveCfg = Debug|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug|x64.Build.0 = Debug|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Debug|x86.Build.0 = Debug|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release Unicode|x64.ActiveCfg = Release|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release Unicode|x64.Build.0 = Release|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release Unicode|x86.ActiveCfg = Release|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release Unicode|x86.Build.0 = Release|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release|x64.ActiveCfg = Release|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release|x64.Build.0 = Release|x64
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release|x86.ActiveCfg = Release|Win32
+		{A3055FC6-E4E7-41AA-85C4-1E464B2FE398}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug.ActiveCfg = Debug|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug.Build.0 = Debug|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Debug Unicode.Build.0 = Debug Unicode|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release.ActiveCfg = Release|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release.Build.0 = Release|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode.ActiveCfg = Release Unicode|Win32
-		{C23240A6-AA9D-4827-AF06-C98E97CA6DFB}.Release Unicode.Build.0 = Release Unicode|Win32
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+		SolutionGuid = {C53B39D4-A7C6-4716-9BEF-64F8FF9580FA}
 	EndGlobalSection
 EndGlobal
