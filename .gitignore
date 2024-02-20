@@ -23,3 +23,6 @@ TestHTTP/LastCoverageResults.log
 TestHTTP/TestHTTP.vcxproj.user
 TestHTTP/TestHTTP_VS14.vcxproj.user
 *build*
+/CClient/x64/Debug
+/TestHTTP/simpleini/.vs/SimpleIni
+/TestHTTP/simpleini/x64/Debug
